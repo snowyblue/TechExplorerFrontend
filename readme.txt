@@ -1,0 +1,1 @@
+Tech Explorer is a project blog for technology enthusiasts!

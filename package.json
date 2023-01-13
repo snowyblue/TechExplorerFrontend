@@ -1,0 +1,14 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "Blog",
+  "main": "script.js",
+  "scripts": {
+    "watch": "tailwind -i ./public/style.css -o ./public/dist/output.css --watch"
+  },
+  "author": "Cody Tope",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

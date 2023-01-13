@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Tech Explorer - Technology for Hobbyists</title>
+</head>
+<body>
+    <nav class="flex justify-between items-center">
+        <div class="ml-10 my-4 text-2xl font-bold">
+            <h1>Tech</h1>
+            <h1 class="ml-2">Explorer</h1>
+            <p class="text-sm">Technology for Hobbyists</p>
+        </div>
+        <menu class="hidden md:flex space-x-10 text-lg">
+            <a class="navStyle" href="http://www.techexplorer.dev">Home</a>
+            <a class="navStyle" href="https://www.techexplorer.dev/about">About</a>
+            <a class="navStyle" href="">Blogs</a>
+            <a class="navStyle" href="">Archive</a>
+            <a class="navStyle" href="">Contact</a>
+        </menu>
+        <menu class="hidden md:flex mr-10">Social Media Links</menu>
+        <button class="burger md:hidden"></button>
+    </nav>
+    <section class="banner">
+        <div class="flex-wrap-reverse flex justify-between text-center text-white items-center">
+            <ul id="interests" class="mb-5 md:mb-0 mx-auto text-4xl px-24">
+                <li class="my-5">Engineering</li>
+                <li class="my-5">Coding</li>
+                <li class="my-5">Electronics</li>
+                <li class="my-5">Networking</li>
+            </ul>
+            <h1 id="welcome" data-aos="fade-right" data-aos-duration="3000" class="mt-10 md:mt-0 mx-auto px-24 text-7xl">Welcome</h1>
+        </div>
+    </section>
+    <aside><!--for side bar--></aside>
+    <main>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
