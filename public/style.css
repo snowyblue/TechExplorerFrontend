@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind component;
+@tailwind utilities;
+
+.navStyle::after{
+    content:"";
+    display: block;
+    border-top-width: 2px;
+    border-color: rgb(74, 78, 105);
+    border-style: solid;
+    width:0%;
+    transition: width .3s;
+}
+
+.navStyle:hover::after{
+    width:100%;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)),url("../pics/banner.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.burger, .burger::after, .burger::before{
+    display:block;
+    margin-right:40px;
+    height: 0;
+    width: 25px;
+    outline: 2px solid black;
+}
+
+.burger::after{
+    content:"";
+    transform: translateY(8px);
+}
+
+.burger::before{
+    content:"";
+    transform: translateY(-8px);
+}
+
+#interests{
+	height:100%;
+    overflow:hidden;
+    animation: 8s linear 1s infinite text-scroll;
+}
+
+@keyframes text-scroll {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
